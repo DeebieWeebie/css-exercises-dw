@@ -1,20 +1,15 @@
 /*style css*/
 
-/*selects all <p> elements*/
-p {
+/*selects <p> elements with class odd*/
+.odd {
     font-family: Verdana, "DejaVu Sans", sans-serif;
     background-color: rgba(252, 131, 118, 0.801)
 }
 /*selects <p> elements with class="large"*/
-p.large {
+.large {
     font-size: 24px;
 }
 
-/*selects all <div> elements*/
-div {
-    font-family: "Times New Roman";
-    font-weight: bold;
-}
 /*selects different <div> IDs*/
 #num2 {
     color: #0000ff;
@@ -24,4 +19,5 @@ div {
 #num4 {
     font-size: 24px;
     background-color: #00ff0080;
+    font-weight: bold;
 }
