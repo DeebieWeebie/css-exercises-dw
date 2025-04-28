@@ -9,15 +9,19 @@ p {
 p.large {
     font-size: 24px;
 }
+
+/*selects all <div> elements*/
+div {
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
 /*selects different <div> IDs*/
 #num2 {
-    font-family: "Times New Roman";
     color: #0000ff;
     font-size: 36px;
+
 }
 #num4 {
-    font-family: "Times New Roman";
     font-size: 24px;
-    font-weight: bold;
     background-color: #00ff0080;
 }
