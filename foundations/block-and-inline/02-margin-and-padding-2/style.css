@@ -21,11 +21,11 @@ body {
   background: #e3f4ff;
   text-align: center
   padding: 20px;
-  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
   
 
 button {
