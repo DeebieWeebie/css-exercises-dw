@@ -7,6 +7,24 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* encloses link items to arrange at either end */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* allows links to sit side by side in row*/
+.left-links {
+  display: flex;
+}
+
+/* same as left-links */
+.right-links {
+  display: flex;
+  padding-right: 40px;
+}
+
 img {
   width: 600px;
 }
