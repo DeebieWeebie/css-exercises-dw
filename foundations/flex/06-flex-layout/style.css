@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+/* not sure if padding or margin should go here */
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  margin: 32px;
 }
 
 /* encloses link items to arrange at either end */
@@ -14,15 +15,22 @@ body {
   padding: 10px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 /* allows links to sit side by side in row*/
 .left-links {
   display: flex;
+  gap: 15px;
 }
 
 /* match padding size of left-link ul start */
 .right-links {
   display: flex;
-  padding-right: 40px;
+  gap: 15px;
 }
 
 img {
@@ -46,9 +54,11 @@ input {
 /* removes link underline */
 a {
   text-decoration: none;
+  color: rgb(97, 95, 95);
 }
 
-/* removes list bullets */
+/* removes list bullets, removes inline start padding */
 ul {
   list-style-type: none;
+  padding-inline-start: 0;
 }
