@@ -42,11 +42,13 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  space
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .close-button {
@@ -62,6 +64,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.text {
+  margin-top: 10px;
 }
 
 button {
