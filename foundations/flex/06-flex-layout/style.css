@@ -24,3 +24,13 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* removes link underline */
+a {
+  text-decoration: none;
+}
+
+/* removes list bullets */
+ul {
+  list-style-type: none;
+}
