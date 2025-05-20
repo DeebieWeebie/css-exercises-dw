@@ -19,7 +19,7 @@ body {
   display: flex;
 }
 
-/* same as left-links */
+/* match padding size of left-link ul start */
 .right-links {
   display: flex;
   padding-right: 40px;
