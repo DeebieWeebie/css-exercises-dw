@@ -61,6 +61,7 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
@@ -86,6 +87,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right: 5px;
 }
 
 button.cancel {
