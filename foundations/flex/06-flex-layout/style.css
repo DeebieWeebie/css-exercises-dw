@@ -33,6 +33,13 @@ body {
   gap: 15px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 img {
   width: 600px;
 }
@@ -42,6 +49,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -52,6 +60,7 @@ input {
 }
 
 /* removes link underline */
+/* changes text color to grey */
 a {
   text-decoration: none;
   color: rgb(97, 95, 95);
