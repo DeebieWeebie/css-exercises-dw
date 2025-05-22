@@ -18,7 +18,9 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  background-color: #eee;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* allows links to sit side by side in row*/
@@ -42,6 +44,7 @@ body {
   align-items: center;
   gap: 15px;
   margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 img {
