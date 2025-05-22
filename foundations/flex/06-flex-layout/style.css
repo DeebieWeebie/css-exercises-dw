@@ -33,11 +33,13 @@ body {
   gap: 15px;
 }
 
+/* Add flexwrap so the items can be centered, add gap to space them out vertically */
 .content {
   display: flex;
+  flex-wrap:wrap;
   flex-direction: column;
-  justify-content: center;
-
+  align-items: center;
+  gap: 15px;
 }
 
 img {
