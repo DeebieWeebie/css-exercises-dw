@@ -34,12 +34,14 @@ body {
 }
 
 /* Add flexwrap so the items can be centered, add gap to space them out vertically */
+/* Add margin-top as % to keep content approx centered between header and footer */
 .content {
   display: flex;
   flex-wrap:wrap;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  margin-top: 25%;
 }
 
 img {
