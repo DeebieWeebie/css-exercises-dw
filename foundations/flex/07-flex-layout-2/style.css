@@ -5,12 +5,16 @@ body {
 }
 
 /* Add font size and weight */
+/* Flex to center align, pad left */
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
   font-size: 32px;
   font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
