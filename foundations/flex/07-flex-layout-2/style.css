@@ -34,3 +34,13 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* removes underline on link*/
+a {
+  text-decoration: none;
+}
+
+/* removes bullet on list */
+ul {
+  list-style: none;
+}
