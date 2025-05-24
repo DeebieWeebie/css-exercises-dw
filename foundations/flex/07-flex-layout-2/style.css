@@ -70,11 +70,11 @@ a {
   color: white;
 }
 
+/* remove align-self flex start as had no effect */
 /* removes bullet on list */
 ul {
   list-style: none;
   padding-left: 0px;
-  align-self: flex-start;
   margin: 0;
 }
 
