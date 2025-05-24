@@ -7,12 +7,12 @@ body {
   flex-direction: column;
 }
 
+/*remove flex nowrap as had no effect in header*/
 /* Add font size and weight */
 /* Flex to center align, pad left */
 /* Nowrap so text doesn't collapse */
 .header {
   display: flex;
-  flex-wrap: nowrap;
   height: 72px;
   background: darkmagenta;
   color: white;
