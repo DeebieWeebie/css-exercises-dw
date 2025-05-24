@@ -38,11 +38,11 @@ body {
 
 }
 
+/* remove align items flex start as it had no effect*/
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  align-items: flex-start;
   flex-shrink: 0;
   padding: 16px;
 }
